@@ -5,3 +5,5 @@ Generation of SDFGeometry - SDF defined in JSON format,  triangulation of a thre
 
 
  try https://hofk.de/SDFGeometry/SDFGenerationLocal.html
+
+ Help see Generation_of_SDFGeometry_EN.pdf
