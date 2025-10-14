@@ -1,2 +1,7 @@
 # SDFGeometry
 Generation of SDFGeometry - SDF defined in JSON format,  triangulation of a three.js BufferGeometry
+
+ Copyright Klaus Hoffmeister 2025 
+ https://hofk.de/
+
+ Details at the top of the source code. 
