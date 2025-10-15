@@ -1,0 +1,9 @@
+ {
+"Settings": { "tsl": 0.04, "startPoint": {"x": 0,"y":-0.25,"z":-1000} },
+"Cyl": { "type": "cylinder", "rt": 1.2, "s": 0.09},
+"Section":  { "type": "section",
+    "op": "Cyl", "s": 0.09,
+    "planes": [{"normal": {"x":1, "y":1,  "z": 2}, "d": 0.0 },
+               {"normal": {"x":1, "y":1.1,"z":-1}, "d": 0.0 },
+               {"normal": {"x":-1, "y":1, "z":-1}, "d": 0.4 }]}
+}

@@ -1,0 +1,6 @@
+{
+  "Settings": { "tsl": 0.015 },
+  "Sph": { "type": "sphere", "r": 0.7, "c": { "x": 0, "y": 0, "z": 0.4 }  },
+  "Prism": { "type": "prism", "n": 6, "r": 0.49, "d": 1.25},
+  "Subtr":  { "type": "subtraction", "op1": "Sph", "op2": "Prism", "s": 0.15 }	
+}

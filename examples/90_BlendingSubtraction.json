@@ -1,0 +1,14 @@
+{ "Settings": { "tsl": 0.025 },
+  "Octahed": { "type": "octahedron", "r": 1.12 },
+  "Sph": { "type": "sphere" },
+  "Blend_A": { "type": "blending",
+                       "op1": "Sph", "op2": "Octahed", "b": 0.5, "s": 0.01 },
+  "BoxFrame": { "type": "boxframe",
+                          "fx": 0.15, "fy": 0.22, "fz": 0.32, "s": 0.06 },
+  "Blend_B": { "type": "blending",
+                     "op1": "Blend_A", "op2": "BoxFrame", "b": 0.5, "s": 0.01 },
+  "Cone": { "type": "cylinder",
+                            "rb": 0.012, "rt": 0.15, "h": 1.5, "s": 0.02 },
+  "Sub": { "type": "subtraction",
+                           "op1": "Blend_B", "op2": "Cone", "s": 0.04 }
+}

@@ -1,0 +1,7 @@
+{ 
+   "Settings": { "tsl": 0.035 },
+   "Hyperboloid": { "type": "hyperboloid",
+                                        "a": 1.11, "r": -0.25, "h": 1.2, "s": 0.12, "hollow": true }
+}
+
+

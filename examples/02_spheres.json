@@ -1,0 +1,7 @@
+{
+"Settings": { "tsl": 0.15, "maxDistance": 10,
+                 "startPoint": { "x": 0, "y": -10, "z": 0 }, "direction": { "x": 0, "y": 1, "z": 0 } },
+"SphA": { "type": "sphere", "c": { "x": 0, "y": 1.5, "z": 0 }  },
+"SphB": {  "type": "sphere", "r": 1.3, "c": { "x": 0, "y": 2.8, "z": 1 } }, 
+"Union1": { "type": "union", "op1": "SphA", "op2": "SphB", "s": 0.12}
+}

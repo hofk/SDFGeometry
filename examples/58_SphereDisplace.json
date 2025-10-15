@@ -1,0 +1,6 @@
+{
+"Settings":  { "tsl": 0.025},
+"Sph": { "type": "sphere", "r": 1.8 },
+"Displ": { "type": "displace", "op": "Sph", "func": "sinXYZ", "d": 0.05, "f": 1.5}
+}
+

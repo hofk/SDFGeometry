@@ -1,0 +1,7 @@
+{
+"Settings": { "tsl": 0.12 },
+"Torus": { "type": "torus"},
+"Section": { "type": "section", "op": "Torus", "s": 0.24,
+  "planes": [ { "normal": {"x":0,  "y":0.5, "z":  0.9}, "d": 1.3},  
+              { "normal": {"x":0,  "y":0.5, "z": -0.9}, "d": 1.3} ] }
+}

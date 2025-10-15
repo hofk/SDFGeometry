@@ -1,0 +1,6 @@
+{
+"Settings": { "tsl": 0.044 },
+"Box": { "type": "box", "whd": { "x": 2.5, "y": 0.4, "z": 2.5 } },
+"Sph": { "type": "sphere", "r": 0.6, "c": { "x": 0.0, "y": 0.0, "z": 0 } }, 
+"IntersSphBox": { "type": "intersection", "op1": "Sph", "op2": "Box", "s": 0.04}
+}

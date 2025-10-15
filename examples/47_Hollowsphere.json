@@ -1,0 +1,4 @@
+{
+"Settings":  { "tsl": 0.03,  "startPoint": { "x": 0, "y": -0.8, "z": -100 }},
+"HollowSph": { "type": "hollowsphere", "R": 1.0, "r": 0.9, "h": 1.0 }
+}

@@ -1,0 +1,4 @@
+{
+"Settings": {"tsl":0.1},
+"Ellipsoid": {"type": "ellipsoid", "rxyz": { "x": 1.0,  "y": 1.5,  "z": 0.6 }, "bend": 50 }
+}

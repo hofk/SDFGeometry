@@ -1,0 +1,7 @@
+{ 
+  "Power": { "type": "powerparaboloid",
+                    "a": 0.01, "n": 9, "h": 1.5, "s": 0.06, "hollow": true},
+  "Sect": { "type": "section", "op": "Power",
+            "planes": [{ "normal": { "x":0, "y":0.2, "z":1  }, "d": 0.4, "s": 0.04 }]
+          }
+}

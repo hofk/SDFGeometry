@@ -1,0 +1,6 @@
+{
+  "RotateLog": { "type": "rotate",  "func": "log",
+                           "a": 0.4, "r": 0.0,  "h": 2.22,  "hollow": true,  "s": 0.12 }
+}
+
+

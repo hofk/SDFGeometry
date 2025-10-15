@@ -1,0 +1,4 @@
+{
+  "RotateBevelCos": { "type": "rotate", "func": "bevelcos", 
+    "bev": 8.5, "r": 0.45, "a": 0.03,  "f": 24.8,  "h": 4.0,  "hollow": true,  "s": 0.12 }
+}

@@ -1,0 +1,7 @@
+{
+"Settings":  { "tsl": 0.025 },
+"solidangle": { "type": "solidangle", 
+                       "c": { "x": 0, "y": -0.3 , "z": 0.2 }, "r": 1.1, "°": 45 },
+"Scale" : { "type": "scale", "op": "solidangle", 
+                             "whd": { "x": 1.3, "y": 1.5, "z": 1.0} }
+}

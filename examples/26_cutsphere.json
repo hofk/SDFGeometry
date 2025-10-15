@@ -1,0 +1,4 @@
+{
+"Settings": { "tsl": 0.03},
+"CutSph": { "type": "cutsphere", "r": 0.7, "c": { "x": 0, "y": 0.1 , "z": 0 }, "h": 0.85}
+}

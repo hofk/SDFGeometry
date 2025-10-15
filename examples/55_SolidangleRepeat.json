@@ -1,0 +1,7 @@
+{
+"Settings":  { "tsl": 0.022 },
+"solidangle": { "type": "solidangle",
+                      "c": { "x": 0.0, "y": -0.5, "z": 0.05 }, "°": 60 },
+"Rep" : { "type": "repeat",
+                  "op": "solidangle",  "d": 1.0, "nnn": { "x": 3, "y": 0, "z": 0} }
+}

@@ -1,0 +1,5 @@
+{
+  "RotatePow5": { "type": "rotate", "func": "pow",
+                             "a": 0.6, "n": 5, "r":0.0,  "h": 1.5,  "hollow": true,  "s": 0.1 }
+}
+

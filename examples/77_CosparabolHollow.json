@@ -1,0 +1,4 @@
+{ 
+  "CosParabol": { "type": "cosparabol",
+                            "a": 0.19, "n": 2, "b": 0.20, "f": 2.7, "h": 2.1 , "s": 0.16, "hollow": true}
+}

@@ -1,0 +1,5 @@
+{
+"Settings":  { "tsl": 0.03 },
+"Box": { "type": "box", "whd": { "x": 1.04, "y": 0.59, "z": 1.04 } },
+"Displ": { "type": "displace", "op": "Box", "func": "FBM", "d": 0.01, "f": 3.84 }
+}

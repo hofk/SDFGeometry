@@ -1,0 +1,6 @@
+{
+"Box": { "type": "box" },
+"triPrism": { "type": "prism", "n": 3, "r": 0.9, "d": 0.66, "roty": 45 },
+"Blend": { "type": "blending", "op1": "triPrism", "op2": "Box", "b": 0.25, "s": 0.3 },
+"Rotation": { "type": "rotation", "op": "Blend", "c": { "x": 0.5, "y": -0.5, "z": 0.0 },  "rotz": 35 }
+}

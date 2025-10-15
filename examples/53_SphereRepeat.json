@@ -1,0 +1,4 @@
+{
+  "Sph": { "type": "sphere", "r": 0.55 },
+  "Repeat": { "type": "repeat", "op": "Sph", "d":0.55, "nnn": {"x": 3 ,"y":2, "z":4} }
+}

@@ -1,0 +1,5 @@
+{
+  "Settings": { "tsl": 0.1},
+  "revCaps": { "type": "revolute", "shape": "unevencapsule",
+                                  "R": 1.5,  "rb": 0.6, "rt": 0.3, "h": 2.0,  "s": 0.065 }
+}

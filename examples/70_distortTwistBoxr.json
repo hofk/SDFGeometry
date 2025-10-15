@@ -1,0 +1,11 @@
+{
+  "Settings": { "tsl":0.02 },
+  "Box": { "type":"box", "s":0.2 },
+  "Dist": {
+    "type":  "distort",
+    "op":    "Box",
+    "mode":  "twist",
+    "dxyz":  {"x": null, "y": 0.7, "z": null},
+    "fxyz":   {"x": null, "y": 1.5, "z": null}
+  }
+}

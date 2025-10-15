@@ -1,0 +1,11 @@
+{
+  "Settings": { "tsl":0.04 },
+  "Cyl": {  "type":"cylinder", "rb": 1.2, "rt": 0.95, "h": 1.1,  "s": 0.125 },
+  "Distort": {
+    "type":  "distort",
+    "op":     "Cyl",
+    "mode":  "vnoise",
+    "dxyz":   { "x":0.10, "y":0.12, "z":0.15 },
+    "fxyz":    { "x":3.0,  "y":1.9,   "z":2.0 }
+  }
+}

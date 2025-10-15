@@ -1,0 +1,11 @@
+{
+ "Settings": { "tsl": 0.08 },
+ "Ellip":    { "type": "ellipsoid" },
+ "Section":  { "type": "section",
+        "op": "Ellip",
+        "planes": [
+        { "normal": {"x":0,  "y":0.5, "z":  0.9}, "d": 0.3},  
+        { "normal": {"x":0,  "y":0.5, "z": -0.9}, "d": 0.3} ],
+        "s": 0.16	 
+    }
+}

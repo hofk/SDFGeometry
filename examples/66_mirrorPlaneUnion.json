@@ -1,0 +1,11 @@
+{
+  "Settings": { "tsl": 0.07},
+   "Cone": { "type": "cylinder", "c": {"x": -0.2 , "y": 0.05, "z": 0.5}, 
+                                    "rb": 0.4,  "rt": 0.7, "h": 1.2, "rotz": 80, "s": 0.04 },
+  "Mirrored": {
+     "type":   "mirrorPlane",
+     "op":     "Cone",
+     "normal": { "x": -0.2, "y": -0.3, "z": 0.86 },
+     "d":       0.75 },
+  "Union": { "type": "union", "op1": "Cone", "op2": "Mirrored", "s": 0.04 }
+}

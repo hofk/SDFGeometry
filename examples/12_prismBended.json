@@ -1,0 +1,4 @@
+{
+ "Settings": { "tsl": 0.04 },
+ "triPrism": { "type": "prism",  "n": 3, "r": 0.9, "d":0.33, "roty": 45, "bend": 55,  "s": 0.12 }
+}

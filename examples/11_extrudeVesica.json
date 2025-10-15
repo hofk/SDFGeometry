@@ -1,0 +1,5 @@
+{
+ "Settings": { "tsl": 0.03 },
+ "extrudeVesica": { "type": "extrude", "shape": "vesica", 
+ 		     "whd": { "x": 1.2, "y": 0.34, "z": 0.15 },   "s": 0.05 }
+}

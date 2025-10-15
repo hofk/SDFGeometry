@@ -1,0 +1,4 @@
+{
+"Settings": { "tsl": 0.05 },
+"Torus": { "type": "torus", "r": 0.4, "bend": 28 }
+}

@@ -1,0 +1,4 @@
+{
+ "Settings": { "tsl": 0.025 },
+ "CutBox": {  "type": "cutbox",  "d": 0.2, "s": 0.09  }
+}

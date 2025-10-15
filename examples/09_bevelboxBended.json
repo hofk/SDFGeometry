@@ -1,0 +1,5 @@
+{
+   "Settings": { "tsl": 0.08 },
+   "bevelBox":  { "type":  "bevelbox", "whd":  { "x": 3.4,  "y": 0.6,  "z":  0.6 },
+   "c":  { "x": 0.2,  "y": -0.2,  "z": -0.8 }, "roty": 45, "rotx": 20, "bend": 18, "s": 0.2 }
+}

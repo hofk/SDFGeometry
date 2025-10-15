@@ -1,0 +1,11 @@
+{
+  "Settings": { "tsl":0.04 },
+  "Sph": { "type":"sphere", "r": 0.9 },
+  "Distort": {
+    "type":  "distort",
+    "op":    "Sph",
+    "mode":  "twist",
+    "dxyz":  { "x": null, "y": 0.2, "z": null },
+    "fxyz":   { "x": null, "y": 5.0, "z": null }
+  }
+}

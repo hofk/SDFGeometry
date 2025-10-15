@@ -1,0 +1,2 @@
+{ "Settings": { "tsl": 0.05 },
+ "Tetra": { "type": "tetrahedron",  "r": 2.0, "s": 0.16 } }

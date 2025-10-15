@@ -1,0 +1,4 @@
+{
+ "Settings": { "tsl": 0.04 },
+ "CappedTorus": { "type": "cappedtorus", "r": 0.29, "R": 1.0, "°": 90  } 
+}

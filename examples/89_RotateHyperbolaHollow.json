@@ -1,0 +1,5 @@
+{ 
+  "Settings": { "tsl": 0.05 },
+  "Hyp": {  "type": "rotate", "func": "hyperbola",
+                            "a": 0.75, "r": 0.0, "h": 1.6, "s": 0.12, "hollow": true}
+}

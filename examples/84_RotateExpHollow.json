@@ -1,0 +1,5 @@
+{ 
+  "RotateExp": { "type": "rotate",  "func": "exp",
+                          "a": 0.9, "r": 0.1,  "h": 1.99,  "hollow": true,  "s": 0.11 }
+}
+

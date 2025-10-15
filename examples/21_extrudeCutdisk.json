@@ -1,0 +1,5 @@
+{
+  "Settings": { "tsl": 0.05},
+  "extrudeCutdisk": { "type": "extrude", "shape": "cutdisk",
+                                            "r": 1, "h": 1.65, "d": 1, "s": 0.07 }
+}

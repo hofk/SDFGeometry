@@ -1,0 +1,4 @@
+{
+  "Settings": { "tsl": 0.1 },
+  "octPrism": { "type": "prism",  "n": 8, "r":  1, "s": 0.06 }
+}

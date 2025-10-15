@@ -1,0 +1,14 @@
+{
+"Settings": {"tsl":0.022},
+"Body": {"type": "ellipsoid", "rxyz": { "x": 0.6,  "y": 0.8,  "z": 0.6 }, "rotx": -30 },
+"Head": {"type": "ellipsoid", "rxyz": { "x": 0.3, "y": 0.3, "z": 0.4 }, "c": { "x": 0.0, "y": 0.9, "z": 0.4 }, "rotx": -10 },
+"EarRight": {"type": "ellipsoid",  "c": { "x": -0.21, "y": 1.3, "z":  0.4 }, "rxyz": { "x": 0.1, "y": 0.29, "z": 0.05 }, "rotx": -20 },
+"EarLeft": { "type": "mirrorYZ", "op": "EarRight"},
+"HipRight": {"type": "sphere", "r": 0.3, "c": { "x": -0.42, "y": -0.45, "z": -0.25 } },
+"HipLeft": { "type": "mirrorYZ", "op": "HipRight"},
+"LegRight": {"type": "ellipsoid",        "c": { "x": -0.51, "y": -0.55, "z":  0.10 }, "rxyz": { "x": 0.2, "y": 0.2, "z": 0.6 } },
+"LegLeft": { "type": "mirrorYZ", "op": "LegRight"},
+"Tail": {"type": "sphere", "r": 0.15, "c": { "x": 0.0 , "y": -0.55, "z": -0.6 } },
+"Rabbit": { "type": "union", "op": ["Body", "Head", "EarRight", "EarLeft", "HipRight", "HipLeft", "LegRight", "LegLeft", "Tail"], "s": 0.025 , "execute": false},
+"RabbitDisp":  { "type": "displace", "op": "Rabbit", "func": "FBM", "d": 0.0048, "f": 3.85 } 
+}

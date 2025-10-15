@@ -1,0 +1,7 @@
+{
+  "Settings": { "tsl": 0.06 },
+  "extrudeParall": { "type": "extrude", "shape": "parallelogram",
+			     "°": 60, "whd": { "x": 1.9, "y": 0.8, "z": 0.344 }, 
+                                           "c": { "x": 0.3, "y": 0.04, "z": -0.4 }, 
+			     "rotz": 45, "roty": 25,  "order": "ZXY", "s": 0.2 }
+}

@@ -1,0 +1,8 @@
+{
+"Settings": { "startPoint": { "x": 0, "y": -0.44, "z": -10.0 } },
+"Box": { "type": "box" },
+"CapsX": { "type": "capsule", "r": 0.3, "from": { "x": -0.7, "y":  0.0, "z":  0.0 }, "to": { "x": 0.7, "y": 0.0, "z": 0.0 } },
+"CapsY": { "type": "capsule", "r": 0.3, "from": { "x":  0.0, "y": -0.7, "z":  0.0 }, "to": { "x": 0.0, "y": 0.7, "z": 0.0 } },
+"CapsZ": { "type": "capsule", "r": 0.3, "from": { "x":  0.0, "y":  0.0, "z": -0.7 }, "to": { "x": 0.0, "y": 0.0, "z": 0.7 } },
+"Sub": { "type": "subtraction", "op": ["Box", "CapsX", "CapsY", "CapsZ" ], "s": 0.06 }
+}

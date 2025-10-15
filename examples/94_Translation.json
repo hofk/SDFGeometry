@@ -1,0 +1,7 @@
+{
+  "Settings": { "tsl": 0.066 },
+  "octPrism": { "type": "prism",  "n": 8, "r": 1.0, "d": 0.12,"c": { "x": 1.0, "y": 0.0, "z": 0.0 }, "s": 0.06 },
+  "Mirrored": { "type": "mirrorYZ", "op": "octPrism"},
+  "Prism2":   { "type": "union", "op": ["octPrism", "Mirrored"], "s": 0.04 },
+  "Translation": { "type": "translation", "op": "Prism2", "c": { "x": -2.05, "y": 0.33, "z": 0.0 } }
+}

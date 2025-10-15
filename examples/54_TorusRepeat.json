@@ -1,0 +1,6 @@
+{
+"Settings":  { "tsl": 0.05 },
+"Tor": { "type": "torus", "R": 0.7, "r": 0.53  },
+"Rep" : { "type": "repeat", "op": "Tor", 
+"d": 0.7, "nnn": { "x": 3, "y": 3, "z": 0} }
+}

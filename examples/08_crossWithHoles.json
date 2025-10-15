@@ -1,0 +1,10 @@
+{
+"Settings": { "tsl": 0.06 },
+"Box1": { "type": "box", "whd": { "x": 2, "y": 0.15, "z": 1 },  "s": 0.05 },
+"Box2": { "type": "box", "whd": { "x": 0.15, "y": 2, "z": 1 },  "s": 0.05 },
+"CapsuleA": { "type": "capsule",  "r": 0.10, "from": { "x":  0.5, "y": -1, "z": 0 }, "to": { "x":  0.5, "y": 1, "z": 0 } }, 
+"CapsuleB": { "type": "capsule",  "r": 0.10, "from": { "x": -0.5, "y": -1, "z": 0 }, "to": { "x": -0.5, "y": 1, "z": 0 } },
+"UnionBox": { "type": "union", "op1": "Box1", "op2": "Box2", "s": 0.05 },
+"UnionCaps": { "type": "union", "op1": "CapsuleA", "op2": "CapsuleB", "s": 0.0},
+"Subtract1": { "type": "subtraction", "op1": "UnionBox", "op2": "UnionCaps", "s": 0.03 }
+}

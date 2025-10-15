@@ -1,0 +1,7 @@
+{
+"Box": { "type": "box", "whd": { "x": 2, "y": 0.3, "z": 2 } },
+"Sph": { "type": "sphere", "r": 0.7, "c": { "x": 0, "y": 0.18, "z": 0 } }, 
+"Sub": { "type": "subtraction", "op1": "Box", "op2": "Sph", "s": 0.1},
+"Section": { "type": "section", "op": "Sub", "s": 0.06,
+          "planes": [{ "normal": {"x":1, "y": 0.3, "z": 0.3}, "d": 0.75}] }
+}

@@ -1,0 +1,5 @@
+{
+"Box": { "type": "box", "whd": { "x": 2, "y": 0.5, "z": 2 } },
+"Sph": { "type": "sphere", "r": 0.8, "c": { "x": 0, "y": 0.1, "z": 0 } }, 
+"Sub": { "type": "subtraction", "op1": "Box", "op2": "Sph", "s": 0.3 }
+}

@@ -1,0 +1,4 @@
+{
+  "RotateSin": { "type": "rotate", "func": "sin",
+                          "a": 0.06, "f": 23.8, "r": 0.12, "h": 8.43, "rotz": 90,   "s": 0.09 }
+}

@@ -1,0 +1,4 @@
+{
+  "Settings": { "tsl": 0.03 },
+  "evoluteVesica": { "type": "revolute", "shape": "vesica", "whd": { "x": 0.4, "y": 0.5, "z": 0.3 }, "R": 0.4, "s": 0 }
+}

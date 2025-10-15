@@ -1,0 +1,6 @@
+{
+  "Settings": {"tsl": 0.03 },
+  "RotateRoot": { "type": "rotate", "func": "root",
+                             "a": 0.008,  "n": 5, "hollow": true, "r": 0.68, "h": 2.7, "s": 0.18 }
+}
+

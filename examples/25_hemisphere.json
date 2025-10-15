@@ -1,0 +1,3 @@
+{
+  "Hemisph": { "type": "hemisphere", "r": 1.05, "c": { "x": 0, "y": -0.5, "z": 0 }, "rotz": 15 }
+}

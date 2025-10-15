@@ -1,0 +1,5 @@
+{
+  "Settings": { "tsl": 0.07},
+  "extrudeUnevCaps": { "type": "extrude", "shape": "unevencapsule", 
+                                                   "rb": 1.1, "rt": 0.5, "h": 3.5, "d": 0.75 }
+}

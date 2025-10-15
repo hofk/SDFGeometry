@@ -1,0 +1,11 @@
+{
+  "Settings": { "tsl":0.04 },
+  "Box": { "type":"box", "s":0.15 },
+  "Dist": {
+    "type":  "distort",
+    "op":    "Box",
+    "mode":  "noise",
+    "dxyz":   { "x":0.4, "y": 0.3, "z":0.4},
+    "fxyz":  { "x":null, "y": 0.8, "z":null }
+  }
+}

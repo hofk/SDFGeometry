@@ -1,0 +1,11 @@
+{
+  "Settings": { "tsl":0.04 },
+  "Sph": {    "type":"sphere",    "r":   1.1  },
+  "Distort": {
+    "type":  "distort",
+    "op":    "Sph",
+    "mode":  "sin",
+    "dxyz":   { "x":0.05, "y":0.12, "z":0.0 },
+    "fxyz":  { "x":7.0, "y":8.0, "z":6.0 }
+  }
+}

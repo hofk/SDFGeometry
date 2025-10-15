@@ -1,0 +1,10 @@
+{
+   "Settings": { "tsl":0.04 },
+   "Sph": { "type":"sphere" },
+   "Dist": { "type":  "distort",
+                "op":    "Sph",
+                "mode":  "pinch",
+                "dxyz":   { "x": null, "y": 0.3, "z": null },
+                "fxyz":    { "x": null, "y": 3.0, "z": null }
+  }
+}

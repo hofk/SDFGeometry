@@ -1,0 +1,6 @@
+{
+"Settings":  { "tsl": 0.039,  "startPoint": { "x": 0, "y": -0.8, "z": -100 }},
+"HollowSph": { "type": "hollowsphere", "R": 1.0, "r": 0.88, "h": 1.4  },
+"ElongX" : { "type": "elongateX", "op": "HollowSph", "d": 0.6 },
+"ElongZ" : { "type": "elongateZ", "op": "ElongX", "d": 0.6 }
+}

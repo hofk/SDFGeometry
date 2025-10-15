@@ -1,0 +1,21 @@
+{ "Settings": { "tsl": 0.055 },
+ "RotateLcos": { "type": "rotate",  "func": "linescos",  "r": 0.5,
+        "a": 0.02,  "f":  9.43, "h": 3.0, "hollow": true, "s": 0.12,
+  "points": [
+       { "h": 0.0, "r": 0.5 },
+       { "h": 0.8, "r": 0.8 },
+       { "h": 2.0, "r": 0.4 },
+       { "h": 2.8, "r": 1.0 }
+       ] },
+  "Cyl_1": { "type": "cylinder", "c": {"x":0.0 , "y": 2.7, "z": 0.0},
+                   "rb": 0.12, "rt": 0.12, "h": 1.7, "rotz": 90, "s": 0.1 },
+  "Cyl_2": { "type": "cylinder", "c": {"x":0.0 , "y": 2.7, "z": 0.0},
+                    "rb": 0.12, "rt": 0.12, "h": 1.7, "rotx": 90, "s": 0.1 },
+  "Union": { "type": "union",
+                  "op1": "Cyl_1", "op2": "Cyl_2", "s": 0.1 },
+  "OP": { "type": "union",
+                  "op1": "RotateLcos", "op2": "Union", "s": 0.1}
+} 
+
+
+
